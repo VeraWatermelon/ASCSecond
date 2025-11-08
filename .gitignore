@@ -1,0 +1,49 @@
+
+# Keil μVision5 项目忽略文件
+
+# 编译输出目录（包含大部分目标文件、可执行文件等）
+Objects/
+Listings/
+[Tt]emp/
+
+# 可执行文件和镜像
+*.axf
+*.elf
+*.bin
+*.hex
+
+# 目标文件和列表文件
+*.obj
+*.o
+*.lst
+
+# 调试与临时文件
+*.crf
+*.dmp
+*.ini
+*.dbg
+*.cdb
+*.bak
+*.__i
+*.tmp
+*~
+
+# 自动生成的配置/用户文件（保留核心配置）
+*.uvguix.*       # GUI 状态文件（窗口布局等，非必需）
+*.uvoptx.bak     # 配置备份
+*.uvprojx.user   # 用户特定配置
+
+# 链接与依赖文件
+*.lnp
+*.sct
+*.iex
+*.dep
+*.map
+
+# 库文件和预处理输出
+*.lib
+*.i
+
+# 系统文件
+.DS_Store
+Thumbs.db
