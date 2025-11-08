@@ -3,10 +3,12 @@
 #include "OLED.h"
 #include "Mode1.h"
 #include "Mode2.h"
+#include "Key.h"
 
-uint8_t S;
+uint8_t S=1;
 int main(void)
 {
+	Key_Init();
 	OLED_Init();
 	while (1)
 	{
