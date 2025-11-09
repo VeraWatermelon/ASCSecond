@@ -18,9 +18,9 @@ uint8_t Mode1(void)
 	KpA=0.9;
 	KiA=0.26;
 	KdA=0;
-	KpB=0.55;
-	KiB=0.13;
-	KdB=0;
+	KpB=0.32;
+	KiB=0.01;
+	KdB=0.1;
 	while(1)
 	{
 		static int16_t v;
@@ -41,7 +41,6 @@ uint8_t Mode1(void)
 			{
 				v=-v;
 			}
-			OLED_ShowSignedNum(4,1,OutA,5);
 			TargetA=v;
 			Serial_RxFlag = 0;
 		}
