@@ -18,8 +18,8 @@ uint8_t Mode1(void)
 	KpA=0.9;
 	KiA=0.26;
 	KdA=0;
-	KpB=0;
-	KiB=0;
+	KpB=0.55;
+	KiB=0.13;
 	KdB=0;
 	while(1)
 	{
