@@ -36,5 +36,5 @@ void PWM_Init(void)
 
 void PWM_SetCompare3(uint16_t Compare)
 {
-	TIM_SetCompare3(TIM2, Compare);		//设置CCR
+	TIM_SetCompare3(TIM2, Compare);		//设置CCR//?1
 }
