@@ -9,12 +9,11 @@
 #include "Timer.h"
 #include "Serial.h"
 #include <stdio.h>
-
+uint8_t S=1;
 int16_t Speed1;
 int16_t Speed2;
 int main(void)
 {
-	uint8_t S=1;
 	Key_Init();
 	OLED_Init();
 	Motor_Init();
